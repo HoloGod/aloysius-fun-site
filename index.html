@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMA St. Aloysius 2 Bandung</title>
+    <style>
+        /* CSS Variables for Theme Colors */
+        :root {
+            --primary-blue: #004b87;
+            --secondary-blue: #003366;
+            --primary-yellow: #ffcc00;
+            --light-yellow: #fff3c4;
+            --white: #ffffff;
+            --text-dark: #2c3e50;
+        }
+
+        /* Global Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--white);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        h1, h2, h3 {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header */
+        header {
+            background-color: var(--primary-blue);
+            color: var(--white);
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 8px solid var(--primary-yellow);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: var(--primary-yellow);
+            font-weight: 600;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: var(--primary-yellow);
+            display: flex;
+            justify-content: center;
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        nav a {
+            color: var(--secondary-blue);
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 20px;
+            padding: 8px 16px;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: var(--secondary-blue);
+            color: var(--white);
+        }
+
+        /* Section Container */
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 50px 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        section h2 {
+            color: var(--primary-blue);
+            font-size: 2rem;
+            border-bottom: 3px solid var(--primary-yellow);
+            display: inline-block;
+            padding-bottom: 5px;
+            margin-bottom: 25px;
+        }
+
+        /* Hero / Intro */
+        .hero {
+            background-color: var(--light-yellow);
+            padding: 40px;
+            border-radius: 10px;
+            border-left: 6px solid var(--primary-yellow);
+            font-size: 1.1rem;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+
+        /* Cards Layout for Profil / Akademik */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background-color: var(--white);
+            border: 2px solid var(--primary-yellow);
+            border-radius: 10px;
+            padding: 25px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            color: var(--secondary-blue);
+            margin-bottom: 15px;
+        }
+
+        .card ul {
+            padding-left: 20px;
+        }
+
+        /* Contact Section */
+        .contact-box {
+            background-color: var(--primary-blue);
+            color: var(--white);
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .contact-box p {
+            font-size: 1.1rem;
+            margin: 10px 0;
+        }
+
+        .contact-box span {
+            color: var(--primary-yellow);
+            font-weight: bold;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--secondary-blue);
+            color: var(--white);
+            text-align: center;
+            padding: 20px;
+            border-top: 5px solid var(--primary-yellow);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>SMA St. Aloysius 2 Bandung</h1>
+        <p>Berintegritas, Berpikir Konstruktif, dan Menghargai Keragaman</p>
+    </header>
+
+    <nav>
+        <a href="#beranda">Beranda</a>
+        <a href="#profil">Profil & Visi Misi</a>
+        <a href="#akademik">Akademik & Ekstrakurikuler</a>
+        <a href="#kontak">Kontak</a>
+    </nav>
+
+    <div class="container">
+        
+        <section id="beranda">
+            <div class="hero">
+                <p>Selamat datang di website resmi <strong>SMA St. Aloysius 2 Bandung</strong>. Sebagai salah satu institusi pendidikan menengah atas Katolik terkemuka di Kota Bandung, kami berkomitmen untuk menciptakan lingkungan belajar yang inspiratif. Didukung oleh fasilitas belajar yang memadai dan tenaga pendidik profesional, kami memupuk kesadaran multikultural, pemikiran kritis, dan karakter unggul bagi setiap peserta didik.</p>
+            </div>
+        </section>
+
+        <section id="profil">
+            <h2>Profil & Visi Misi</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Visi</h3>
+                    <p>Menjadi wadah yang menciptakan, menginspirasi, dan melaksanakan kegiatan yang terpadu, mendidik, dan berdampak positif serta berkesinambungan bagi peserta didik dan masyarakat luas, dalam semangat cinta kasih dan pelayanan.</p>
+                </div>
+                <div class="card">
+                    <h3>Misi & Nilai Dasar</h3>
+                    <ul>
+                        <li>Menanamkan karakter yang <strong>Berintegritas</strong> dan <strong>Berakuntabilitas</strong>.</li>
+                        <li>Membentuk generasi yang <strong>Adaptif</strong> dan <strong>Proaktif</strong> di era globalisasi.</li>
+                        <li>Mengembangkan kemampuan <strong>Berpikir Konstruktif</strong> (seperti penerapan model pembelajaran Treffinger).</li>
+                        <li>Membangun kesadaran hukum, moral, serta menghargai budaya dan keberagaman nusantara.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="akademik">
+            <h2>Akademik & Ekstrakurikuler</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Program Akademik & Prestasi</h3>
+                    <p>SMA St. Aloysius 2 memiliki peminatan Ilmu Pengetahuan Alam (IPA) dan Ilmu Pengetahuan Sosial (IPS). Siswa kami aktif berinovasi dan berkompetisi di tingkat regional maupun nasional, seperti:</p>
+                    <ul>
+                        <li>Juara pada ajang Karya Ilmiah Remaja (KIR) Nasional.</li>
+                        <li>Prestasi unggul di <em>National Youth Research Competition</em>.</li>
+                        <li>Turut serta mencetak prestasi pada ajang Olimpiade Fisika, Biologi, dan Matematika.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Ekstrakurikuler</h3>
+                    <p>Untuk menunjang bakat non-akademis serta pengembangan diri seutuhnya, sekolah kami menyediakan berbagai kegiatan, antara lain:</p>
+                    <ul>
+                        <li><strong>Kesenian:</strong> Paduan Suara, Seni Musik, dan Seni Rupa.</li>
+                        <li><strong>Olahraga:</strong> Basket, Futsal, dan berbagai cabang atletik.</li>
+                        <li><strong>Pengembangan Diri:</strong> Klub Jurnalistik, Diskusi Ilmiah, dan Kelompok Ilmiah Remaja (KIR).</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="kontak">
+            <h2>Kontak & Lokasi</h2>
+            <div class="contact-box">
+                <p>Kami menyambut baik segala bentuk pertanyaan dan peluang kolaborasi. Silakan kunjungi kampus kami di lokasi berikut:</p>
+                <p><span>Alamat:</span> Jl. Batu Nunggal Indah II/30, Kota Bandung, Jawa Barat</p>
+                <p><span>Waktu Operasional:</span> Senin - Jumat (07.00 - 15.00 WIB)</p>
+                <p><em>Untuk informasi pendaftaran peserta didik baru, silakan kunjungi tata usaha pada jam kerja.</em></p>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 SMA St. Aloysius 2 Bandung. Hak Cipta Dilindungi.</p>
+    </footer>
+
+</body>
+</html>
